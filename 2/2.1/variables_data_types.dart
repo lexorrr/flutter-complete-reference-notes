@@ -113,8 +113,8 @@ void main() {
   // parse() can fail if the input is malformed ("12_@4.49")
   // use the following solutions(we will cover nullable types later):
   // 1. If the string is not a number, val is null
-  double? val = double.tryParse("12@.3x"); // null
-  double? val = double.tryParse("120.343"); // 120.343
+  // double? val = double.tryParse("12@.3x"); // null
+  // double? val = double.tryParse("120.343"); // 120.343
   // 2. The onError callback is called when parsing fails
   // note: parse() is deprecated, you should prefer tryParse()
   // var a = int.parse("1_6", onError: (value) => 0); // 0

@@ -13,8 +13,8 @@ void main() {
   // else 
   //    isAlive = "RIP";
   // More consice way:
-  String? status; // This is null
-  String isAlive = status ?? "RIP";
+  // String? status; // This is null
+  // String isAlive = status ?? "RIP";
   // The ?? operator automatically checks if status is null and decides
   // what to do:
   // - status is not null: return status;
