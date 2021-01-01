@@ -13,8 +13,8 @@ void main() {
 // with the concepts.
 class Person {
   // Instance variables
-  String name;
-  String surname;
+  String? name;
+  String? surname;
 
   // Constructor
   Person(String name, String surname) {
